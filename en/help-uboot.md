@@ -1,4 +1,4 @@
-# OpenIPC Wiki
+# OpenIPC Wiki ESCAM PVR008
 [Table of Content](../README.md)
 
 Help: U-Boot
@@ -15,14 +15,14 @@ If it is not there, set it yourself.
 
 ```bash
 # Look up address for your SoC at https://openipc.org/supported-hardware/
-setenv baseaddr 0x80600000
+setenv baseaddr 0x42000000
 ```
 
 Assign the hex size of your flash chip to a variable called `flashsize`.
 
 ```bash
 # Use 0x800000 for an 8MB flash chip, 0x1000000 for 16MB.
-setenv flashsize 0x800000
+setenv flashsize 0x1000000
 ```
 
 Save these values into the environment afterwards.
